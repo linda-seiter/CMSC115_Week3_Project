@@ -1,0 +1,6 @@
+type: framework
+content:
+  - Introduction
+  - Task1 - ceilingArea method
+  - Task2 - wallArea method
+is_template_based: false

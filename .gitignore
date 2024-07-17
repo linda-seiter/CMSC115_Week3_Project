@@ -1,0 +1,9 @@
+# Project exclude paths
+/.coursecreator/
+/.gradle/
+/PaintCalculator_GuidedProject/Introduction/out/
+/PaintCalculator_GuidedProject/Introduction/out/production/classes/
+/PaintCalculator_GuidedProject/Task1 - ceilingArea method/build/
+/PaintCalculator_GuidedProject/Task1 - ceilingArea method/out/
+/PaintCalculator_GuidedProject/Task1 - ceilingArea method/out/production/classes/
+/PaintCalculator_GuidedProject/Task2 - wallArea method/build/
