@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/PaintCalculator.java
+    visible: true
+    placeholders:
+      - offset: 786
+        length: 22
+        placeholder_text: return 0.0;
+  - name: test/Task1Tests.java
+    visible: false

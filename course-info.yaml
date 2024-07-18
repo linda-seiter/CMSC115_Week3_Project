@@ -3,4 +3,8 @@ title: CMSC115_Week3_Project_V1
 language: English
 programming_language: Java
 content:
+  - PaintCalculator_Lesson
   - PaintCalculator_GuidedProject
+environment_settings:
+  jvm_language_level: JDK_1_8
+solutions_hidden: true

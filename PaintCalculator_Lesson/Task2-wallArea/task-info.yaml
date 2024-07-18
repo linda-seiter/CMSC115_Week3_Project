@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: src/PaintCalculator.java
+    visible: true
+    placeholders:
+      - offset: 794
+        length: 22
+        placeholder_text: /* TODO */
+        dependency:
+          lesson: PaintCalculator_Lesson
+          task: Task1-ceilingArea
+          file: src/PaintCalculator.java
+          placeholder: 1
+        is_visible: false
+      - offset: 1122
+        length: 128
+        placeholder_text: ???
+  - name: test/Task2Tests.java
+    visible: false
+  - name: test/Task1Tests.java
+    visible: false
