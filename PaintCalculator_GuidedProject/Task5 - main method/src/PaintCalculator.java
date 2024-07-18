@@ -8,16 +8,16 @@ import java.util.Scanner;
 public class PaintCalculator {
 
     /**
-     * main - Prompt for room dimensions and print resulting measures.
+     * main - Prompt for room dimensions and print gallons of paint.
      * @param args
      */
     public static void main(String[] args) {
-        //TODO Task2-4: Update print statements to call current task's method
-        System.out.println("wallArea(10.0, 8.5, 9.0) = " + wallArea(10.0, 8.5, 9.0));
-        System.out.println("wallArea(7.5, 11.5, 8.25) = " + wallArea(7.5, 11.5, 8.25));
-
-        //TODO Task#5
-
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter length, width and height: ");
+        double length = in.nextDouble();
+        double width = in.nextDouble();
+        double height = in.nextDouble();
+        System.out.println("Buy " + gallonsPaint(length, width, height) + " gallons of paint.");
     }
 
     /**
@@ -49,7 +49,9 @@ public class PaintCalculator {
      * @param height - the room height as a double.
      * @return the total ceiling and wall area as a double.
      */
-    //TODO Task#3
+    public static double roomArea(double length, double width, double height) {
+        return ceilingArea(length, width) + wallArea(length, width, height);
+    }
 
 
     /**
@@ -59,7 +61,12 @@ public class PaintCalculator {
      * @param height - the room height as a double
      * @return the gallons of paint as an int
      */
-    //TODO Task#4
+    public static int gallonsPaint( double length, double width, double height) {
+        double sqFt = roomArea(length, width, height);
+        double gallons = sqFt / 350;
+        double gallonsRoundedUp = Math.ceil(gallons);
+        return (int)gallonsRoundedUp;
+    }
 
 }
 
