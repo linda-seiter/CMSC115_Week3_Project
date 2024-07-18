@@ -8,3 +8,4 @@ files:
         placeholder_text: return 0.0;
   - name: test/Task1Tests.java
     visible: false
+solution_hidden: true

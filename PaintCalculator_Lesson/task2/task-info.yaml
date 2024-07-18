@@ -5,17 +5,19 @@ files:
     placeholders:
       - offset: 794
         length: 22
-        placeholder_text: /* TODO */
+        placeholder_text: /* Task 1 */
         dependency:
           lesson: PaintCalculator_Lesson
-          task: Task1-ceilingArea
+          task: task1
           file: src/PaintCalculator.java
           placeholder: 1
         is_visible: false
       - offset: 1122
         length: 128
-        placeholder_text: ???
-  - name: test/Task2Tests.java
-    visible: false
+        placeholder_text: /* Task 2 */
   - name: test/Task1Tests.java
     visible: false
+    propagatable: false
+  - name: test/Task2Tests.java
+    visible: false
+    propagatable: false
