@@ -5,3 +5,5 @@ files:
   - name: test/Task1Tests.java
     visible: false
     propagatable: false
+  - name: src/PaintCalculatorSolution.java
+    visible: false

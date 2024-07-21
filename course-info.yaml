@@ -4,7 +4,7 @@ language: English
 programming_language: Java
 solutions_hidden: true
 content:
-  - PaintCalculator_Lesson
   - PaintCalculator_GuidedProject
+  - PaintCalculator_Lesson
 environment_settings:
   jvm_language_level: JDK17

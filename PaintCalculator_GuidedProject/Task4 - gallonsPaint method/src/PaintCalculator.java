@@ -13,8 +13,8 @@ public class PaintCalculator {
      */
     public static void main(String[] args) {
         //TODO Task2-4: Update print statements to call current task's method
-        System.out.println("gallonsPaint(12.0, 15.0, 10.0) = " + gallonsPaint(12.0, 15.0, 10.0));
-        System.out.println("gallonsPaint(7.5, 11.5, 8.25) = " + gallonsPaint(7.5, 11.5, 8.25));
+        System.out.println("ceilingArea(12.0, 15.0) = " + ceilingArea(12.0, 15.0));
+        System.out.println("ceilingArea(7.5, 11.5) = " + ceilingArea(7.5, 11.5));
 
         //TODO Task#5
 
@@ -27,7 +27,7 @@ public class PaintCalculator {
      * @return the ceiling area as a double.
      */
     public static double ceilingArea(double length, double width) {
-        return length * width;
+        return 0.0;  //TODO Task#1
     }
 
     /**
@@ -37,9 +37,7 @@ public class PaintCalculator {
      * @param height - the room height as a double.
      * @return the wall area as a double.
      */
-    public static double wallArea(double length, double width, double height) {
-        return 2 * ( length + width) * height;
-    }
+    //TODO Task#2
 
 
     /**
@@ -49,9 +47,7 @@ public class PaintCalculator {
      * @param height - the room height as a double.
      * @return the total ceiling and wall area as a double.
      */
-    public static double roomArea(double length, double width, double height) {
-        return ceilingArea(length, width) + wallArea(length, width, height);
-    }
+    //TODO Task#3
 
 
     /**
@@ -61,12 +57,7 @@ public class PaintCalculator {
      * @param height - the room height as a double
      * @return the gallons of paint as an int
      */
-    public static int gallonsPaint( double length, double width, double height) {
-        double sqFt = roomArea(length, width, height);
-        double gallons = sqFt / 350;
-        double gallonsRoundedUp = Math.ceil(gallons);
-        return (int)gallonsRoundedUp;
-    }
+    //TODO Task#4
 
 }
 

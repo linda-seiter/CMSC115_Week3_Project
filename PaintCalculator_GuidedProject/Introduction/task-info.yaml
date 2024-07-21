@@ -2,3 +2,5 @@ type: theory
 files:
   - name: src/PaintCalculator.java
     visible: true
+  - name: src/PaintCalculatorSolution.java
+    visible: false

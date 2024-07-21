@@ -17,3 +17,5 @@ files:
   - name: test/Task3Tests.java
     visible: false
     propagatable: false
+  - name: src/PaintCalculatorSolution.java
+    visible: false
